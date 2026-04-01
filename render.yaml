@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: crawlix
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20.19.0
+      - key: PORT
+        value: 10000
+      - key: NODE_ENV
+        value: production
+      # Add your environment variables here
+      # - key: DATABASE_URL
+      #   sync: false
+      # - key: WEBFLOW_API_TOKEN
+      #   sync: false
