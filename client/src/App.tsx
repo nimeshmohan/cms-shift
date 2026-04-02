@@ -77,7 +77,7 @@ function AppContent() {
           <header className="flex items-center p-4 border-b border-border/40 bg-card/50 backdrop-blur-sm z-10 shrink-0">
             <SidebarTrigger className="hover-elevate active-elevate-2 hover:bg-muted p-2 rounded-md transition-colors" />
             <div className="ml-4 font-medium text-muted-foreground text-sm">
-              CMS Shift
+              CMShift
             </div>
           </header>
           <main className="flex-1 overflow-y-auto w-full relative">
