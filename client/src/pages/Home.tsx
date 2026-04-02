@@ -141,7 +141,7 @@ export default function Home() {
       <footer className="py-6 border-t border-border/40 bg-muted/20">
         <div className="container mx-auto px-4">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-            <p>© {new Date().getFullYear()} CMS Shift. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} CMShift. All rights reserved.</p>
             <p>Developed by <span className="font-semibold text-foreground">Nimesh</span></p>
           </div>
         </div>
