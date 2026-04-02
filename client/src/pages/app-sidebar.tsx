@@ -38,7 +38,7 @@ export function AppSidebar() {
             <div className="bg-primary/10 p-2 rounded-xl">
               <Sparkles className="w-5 h-5 text-primary" />
             </div>
-            CMS Shift
+            CMShift
           </div>
         </Link>
       </SidebarHeader>
